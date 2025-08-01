@@ -1,0 +1,7 @@
+version: v1
+ciPipeline:
+  build:
+    script:
+      - echo "Starting Maven Build"
+      - mvn clean package
+
